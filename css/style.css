@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    /*width: 100vw;*/
+    height: 200vh;
+    background-color: lightgoldenrodyellow;
+}
+aside{
+    background-color: lightpink;
+
+    width: 25wh/*200px*/;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    
+    flex-grow: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+article
+{
+    background-color: white;
+    flex-grow: 1;
+    height: 100%;
+}
+.AsideItem {
+    width: 100%;
+    height: 25%;
+}
+#AsideItem1
+{
+  background-color: #e5ac00;
+}
+#AsideItem2
+{
+  background-color: #d98a07;
+}
+#AsideItem3
+{
+  background-color: #c6620d;
+}
+#AsideItem4
+{
+  background-color: #ba3f13;
+}
+@media (max-width: 767px) {
+    /* стили для xs-устройств */
+    main{
+      display: flex;
+      flex-wrap: wrap;
+      /*width: 100vw;*/
+      height: 200vh;
+      background-color: lightgoldenrodyellow;
+    }
+    aside{
+        background-color: lightpink;
+        position: static;
+
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .AsideItem {
+      width: 25%;
+      height: 100%;
+    }
+    article
+    {
+        background-color: white;
+        border: 5px solid black;
+        height: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств */
+  }
+  @media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+  }
+  @media (min-width: 1200px) {
+    /* стили для lg-устройств */
+  }
