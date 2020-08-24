@@ -1,7 +1,97 @@
-<div class="container-fluid">
-  <div class="row">
-    <mat-card class="col">Simple card</mat-card>
+<div class="container">
+  <div class="row mt-2">
+    <mat-card class="col headercard">
+      <mat-card-header>
+        <img mat-card-avatar src="../assets/avatar.png">
+        <mat-card-title>Yehor Lohutov</mat-card-title>
+        <mat-card-subtitle style="color: white">Software developer</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          Textadasdasdasdasdassadasdasdasds
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="row mt-2">
+    <mat-card class="col-5 mr-2">
+      <mat-card-header>
+        <mat-card-title>Communications</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-list>
+          <mat-list-item>
+            <i mat-list-icon class="material-icons">email</i>
+            <div mat-line>
+              logutovegor@gmail.com
+            </div>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item>
+            <i mat-list-icon class="material-icons">chat</i>
+            <a mat-line href="https://t.me/YehorLohutov">
+              Telegram
+              <i class="material-icons">link</i>
+            </a>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item>
+            <i mat-list-icon class="material-icons">place</i>
+            <div mat-line>
+              <a href="https://goo.gl/maps/uB6DfGtc3VdB6jMCA">
+                Mykolaiv,
+                Mykolaiv Oblast,<br>
+                Ukraine
+              </a>
+            </div>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item>
+            <i mat-list-icon class="material-icons">calendar_today</i>
+            <div mat-line>
+              28.12.1999
+            </div>
+            <div mat-line>
+              20 years old
+            </div>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+
+
+    </mat-card>
+    <mat-card class="col-5">
+      <mat-card-header>
+        <mat-card-title>Skills</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-list>
+          <mat-list-item>
+            <div mat-line>Unity</div>
+            <mat-slider mat-line min="0" max="10" step="1" value="7"></mat-slider>
+          </mat-list-item>
+          <mat-list-item>
+            <div mat-line>.NET Core</div>
+            <mat-slider mat-line min="0" max="10" step="1" value="5"></mat-slider>
+          </mat-list-item>
+          <mat-list-item>
+            <div mat-line>ASP.NET Core</div>
+            <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
+          </mat-list-item>
+          <mat-list-item>
+            <div mat-line>Angular</div>
+            <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
+          </mat-list-item>
+          <mat-list-item>
+            <div mat-line>C#</div>
+            <mat-slider mat-line min="0" max="10" step="1" value="7"></mat-slider>
+          </mat-list-item>
+          <mat-list-item>
+            <div mat-line>TypeScript</div>
+            <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
   </div>
 </div>
-
-s
