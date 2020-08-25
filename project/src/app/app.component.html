@@ -1,5 +1,6 @@
 <div class="container">
-  <div class="row">
+
+  <div class="row p-2">
     <div class="col">
       <mat-card class="headercard">
         <mat-card-header>
@@ -9,124 +10,261 @@
         </mat-card-header>
         <mat-card-content>
           <p>
-            Textadasdasdasdasdassadasdasdasds
+            Something about me... never mind.
           </p>
         </mat-card-content>
       </mat-card>
     </div>
-
   </div>
+
   <div class="row">
-    <div class="col-lg-5">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>Communications</mat-card-title>
-          <i class="material-icons matcardheadericons">person_search</i>
-        </mat-card-header>
-        <mat-card-content>
-          <mat-list>
-            <mat-list-item>
-              <i mat-list-icon class="material-icons">email</i>
-              <div mat-line>
-                logutovegor@gmail.com
+    <div class="col-12">
+      <mat-tab-group mat-align-tabs="center">
+        <mat-tab label="Overview">
+          <div class="container">
+            <div class="row justify-content-center pt-2">
+
+              <div class="col-lg-4 p-2">
+                <mat-card>
+                  <mat-card-header>
+                    <mat-card-title>Communications</mat-card-title>
+                    <i class="material-icons matcardheadericons">person_search</i>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-list>
+                      <mat-list-item>
+                        <i mat-list-icon class="material-icons">email</i>
+                        <div mat-line>
+                          logutovegor@gmail.com
+                        </div>
+                      </mat-list-item>
+                      <mat-divider></mat-divider>
+                      <mat-list-item>
+                        <i mat-list-icon class="material-icons">chat</i>
+                        <a mat-line href="https://t.me/YehorLohutov">
+                          Telegram
+                          <i class="material-icons">link</i>
+                        </a>
+                      </mat-list-item>
+                      <mat-divider></mat-divider>
+                      <mat-list-item>
+                        <i mat-list-icon class="material-icons">place</i>
+                        <a mat-line href="https://goo.gl/maps/uB6DfGtc3VdB6jMCA">
+                          Mykolaiv,
+                          Mykolaiv Oblast,<br>
+                          Ukraine
+                          <i class="material-icons">link</i>
+                        </a>
+                      </mat-list-item>
+                      <mat-divider></mat-divider>
+                      <mat-list-item>
+                        <i mat-list-icon class="material-icons">calendar_today</i>
+                        <div mat-line>
+                          28.12.1999
+                        </div>
+                        <div mat-line>
+                          20 years old
+                        </div>
+                      </mat-list-item>
+                    </mat-list>
+                  </mat-card-content>
+
+
+                </mat-card>
               </div>
-            </mat-list-item>
-            <mat-divider></mat-divider>
-            <mat-list-item>
-              <i mat-list-icon class="material-icons">chat</i>
-              <a mat-line href="https://t.me/YehorLohutov">
-                Telegram
-                <i class="material-icons">link</i>
-              </a>
-            </mat-list-item>
-            <mat-divider></mat-divider>
-            <mat-list-item>
-              <i mat-list-icon class="material-icons">place</i>
-              <a mat-line href="https://goo.gl/maps/uB6DfGtc3VdB6jMCA">
-                Mykolaiv,
-                Mykolaiv Oblast,<br>
-                Ukraine
-                <i class="material-icons">link</i>
-              </a>
-            </mat-list-item>
-            <mat-divider></mat-divider>
-            <mat-list-item>
-              <i mat-list-icon class="material-icons">calendar_today</i>
-              <div mat-line>
-                28.12.1999
+
+              <div class="col-lg-4 p-2">
+                <mat-card>
+                  <mat-card-header>
+                    <mat-card-title>Skills</mat-card-title>
+                    <i class="material-icons matcardheadericons">palette</i>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-list>
+                      <mat-list-item>
+                        <div mat-line>Unity</div>
+                        <mat-slider mat-line min="0" max="10" step="1" value="7"></mat-slider>
+                      </mat-list-item>
+                      <mat-list-item>
+                        <div mat-line>.NET Core</div>
+                        <mat-slider mat-line min="0" max="10" step="1" value="5"></mat-slider>
+                      </mat-list-item>
+                      <mat-list-item>
+                        <div mat-line>ASP.NET Core</div>
+                        <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
+                      </mat-list-item>
+                      <mat-list-item>
+                        <div mat-line>Angular</div>
+                        <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
+                      </mat-list-item>
+                      <mat-list-item>
+                        <div mat-line>C#</div>
+                        <mat-slider mat-line min="0" max="10" step="1" value="7"></mat-slider>
+                      </mat-list-item>
+                      <mat-list-item>
+                        <div mat-line>TypeScript</div>
+                        <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
+                      </mat-list-item>
+                    </mat-list>
+                  </mat-card-content>
+                </mat-card>
               </div>
-              <div mat-line>
-                20 years old
+
+              <div class="col-lg-8 p-2">
+                <mat-card>
+                  <mat-card-header>
+                    <mat-card-title>Education</mat-card-title>
+                    <i class="material-icons matcardheadericons">school</i>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-list>
+                      <mat-list-item>
+                        <div class="educationdate">2019</div>
+                        <div mat-line>Junior Specialist's Diploma</div>
+                        <div mat-line>Mykolaiv Polytechnical College</div>
+                      </mat-list-item>
+                      <mat-divider></mat-divider>
+                      <mat-list-item>
+                        <div class="educationdate">2021</div>
+                        <div mat-line>Bachelor's Diploma</div>
+                        <div mat-line>Petro Mohyla Black Sea National University</div>
+                      </mat-list-item>
+
+                    </mat-list>
+                  </mat-card-content>
+                </mat-card>
               </div>
-            </mat-list-item>
-          </mat-list>
-        </mat-card-content>
 
+            </div>
 
-      </mat-card>
+          </div>
+
+        </mat-tab>
+        <mat-tab label="Projects">
+          <div class="container">
+            <div class="row justify-content-center pt-2">
+              <div class="col-lg-4 p-2">
+                <mat-card class="example-card">
+                  <mat-card-header>
+                    <img mat-card-avatar src="../assets/PickAndDigIcon.png">
+                    <mat-card-title>Pick and Dig</mat-card-title>
+                    <mat-card-subtitle>-</mat-card-subtitle>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-chip-list aria-label="Fish selection">
+                      <mat-chip color="accent" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.pixeldigger" style="color: white">
+                          Google Play
+                        </a>
+                      </mat-chip>
+                      <mat-chip color="primary" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.pixeldigger" style="color: white">
+                          APK
+                        </a>
+                      </mat-chip>
+                      <mat-chip>
+                        <a href="" style="color: white">
+                          Code
+                        </a>
+                      </mat-chip>
+                    </mat-chip-list>
+                  </mat-card-content>
+                </mat-card>
+              </div>
+
+              <div class="col-lg-4 p-2">
+                <mat-card class="example-card">
+                  <mat-card-header>
+                    <img mat-card-avatar src="../assets/FellerIcon.png">
+                    <mat-card-title>Feller</mat-card-title>
+                    <mat-card-subtitle>-</mat-card-subtitle>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-chip-list aria-label="Fish selection">
+                      <mat-chip color="accent" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.feller" style="color: white">
+                          Google Play
+                        </a>
+                      </mat-chip>
+                      <mat-chip color="primary" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.feller" style="color: white">
+                          APK
+                        </a>
+                      </mat-chip>
+                      <mat-chip>
+                        <a href="" style="color: white">
+                          Code
+                        </a>
+                      </mat-chip>
+                    </mat-chip-list>
+                  </mat-card-content>
+                </mat-card>
+              </div>
+
+              <div class="col-lg-4 p-2">
+                <mat-card class="example-card">
+                  <mat-card-header>
+                    <img mat-card-avatar src="../assets/NeonCircleIcon.png">
+                    <mat-card-title>Neon Circle</mat-card-title>
+                    <mat-card-subtitle>-</mat-card-subtitle>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-chip-list aria-label="Fish selection">
+                      <mat-chip color="accent" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.neoncircle" style="color: white">
+                          Google Play
+                        </a>
+                      </mat-chip>
+                      <mat-chip color="primary" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.neoncircle" style="color: white">
+                          APK
+                        </a>
+                      </mat-chip>
+                      <mat-chip>
+                        <a href="" style="color: white">
+                          Code
+                        </a>
+                      </mat-chip>
+                    </mat-chip-list>
+                  </mat-card-content>
+                </mat-card>
+              </div>
+
+              <div class="col-lg-4 p-2">
+                <mat-card class="example-card">
+                  <mat-card-header>
+                    <img mat-card-avatar src="../assets/MagicBattlesIcon.png">
+                    <mat-card-title>Magic Battles</mat-card-title>
+                    <mat-card-subtitle>-</mat-card-subtitle>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <mat-chip-list aria-label="Fish selection">
+                      <mat-chip color="accent" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.magicbattles" style="color: white">
+                          Google Play
+                        </a>
+                      </mat-chip>
+                      <mat-chip color="primary" selected>
+                        <a href="https://play.google.com/store/apps/details?id=com.basovdevteam.magicbattles" style="color: white">
+                          APK
+                        </a>
+                      </mat-chip>
+                      <mat-chip>
+                        <a href="" style="color: white">
+                          Code
+                        </a>
+                      </mat-chip>
+                    </mat-chip-list>
+                  </mat-card-content>
+                </mat-card>
+              </div>
+
+            </div>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
     </div>
-
-    <div class="col-lg">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>Skills</mat-card-title>
-          <i class="material-icons matcardheadericons">palette</i>
-        </mat-card-header>
-        <mat-card-content>
-          <mat-list>
-            <mat-list-item>
-              <div mat-line>Unity</div>
-              <mat-slider mat-line min="0" max="10" step="1" value="7"></mat-slider>
-            </mat-list-item>
-            <mat-list-item>
-              <div mat-line>.NET Core</div>
-              <mat-slider mat-line min="0" max="10" step="1" value="5"></mat-slider>
-            </mat-list-item>
-            <mat-list-item>
-              <div mat-line>ASP.NET Core</div>
-              <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
-            </mat-list-item>
-            <mat-list-item>
-              <div mat-line>Angular</div>
-              <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
-            </mat-list-item>
-            <mat-list-item>
-              <div mat-line>C#</div>
-              <mat-slider mat-line min="0" max="10" step="1" value="7"></mat-slider>
-            </mat-list-item>
-            <mat-list-item>
-              <div mat-line>TypeScript</div>
-              <mat-slider mat-line min="0" max="10" step="1" value="4"></mat-slider>
-            </mat-list-item>
-          </mat-list>
-        </mat-card-content>
-      </mat-card>
-    </div>
-
-    <div class="col-lg">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>Education</mat-card-title>
-          <i class="material-icons matcardheadericons">school</i>
-        </mat-card-header>
-        <mat-card-content>
-          <mat-list>
-            <mat-list-item>
-              <div class="educationdate">2015-2019</div>
-              <div mat-line>Junior Specialist's Diploma</div>
-              <div mat-line>Mykolaiv Polytechnical College</div>
-            </mat-list-item>
-            <mat-divider></mat-divider>
-            <mat-list-item>
-              <div class="educationdate">2019-2021</div>
-              <div mat-line>Bachelor's Diploma</div>
-              <div mat-line>Petro Mohyla Black Sea National University</div>
-            </mat-list-item>
-
-          </mat-list>
-        </mat-card-content>
-      </mat-card>
-    </div>
-
   </div>
+
+
 </div>

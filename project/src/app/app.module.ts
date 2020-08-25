@@ -8,6 +8,8 @@ import { MatSliderModule} from '@angular/material/slider';
 import { MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatSliderModule,
     MatCardModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatTabsModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
